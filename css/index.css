@@ -1,0 +1,149 @@
+:root{
+    --lightyellow:#FFF0D1;
+    --brown:#664343;
+    --black:#3B3030;
+    --white:#FAF7F0;
+    --grey:#D8D2C2;
+
+}
+
+
+
+body, h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url("../mocha\ img.png");
+    background-size: cover;
+    background-position: center;
+    height:80vh;
+    
+}
+header a{
+text-decoration: none;
+color:var(--white);
+min-width: 100px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    padding: 1em;;
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    min-width: 250px;
+}
+nav{
+    flex: 2;
+    display: flex;
+
+}
+nav a{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+nav a:hover{
+    color:var(--lightyellow);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color:var(--lightyellow);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:var(--white)
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vh;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--lightyellow);
+    color: var(--black);
+    
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background-color: var(--lightyellow);
+    color:var(--black);
+}
+
+
+
+
+#menuheading,#locheading{
+    background-color: var(--lightyellow);
+    font-size: 2.5em;
+    color: var(--brown);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: var(--brown);
+    font-size: 1.3em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+ .menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+ }  
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.teabased{
+    grid-row:span 2;
+}
+.locations{
+    background-color: var(--lightyellow);
+    color:var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.locations h2{
+    color: var(--brown);
+    margin-bottom: .8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1.1em;
+    min-width: 200px;
+
+}     
+footer{
+    background-color: black;
+    color:white;
+    padding: .25em 1em;
+} 
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+    
+
+
+
+    
+
